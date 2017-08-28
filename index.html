@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">	
+		<title>Basic Calculator</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<div id="container">
+
+			<header>
+				<h2>The Amazing Simpulator</h2>
+			</header>
+
+			<form>
+				<fieldset>
+
+					<div id="inputs">
+						<span class="labels">First Input</span><br>
+						<input id="num1" type="text" size="13"><br><br>
+
+						<span class="labels">Second Input</span><br>
+						<input id="num2" type="text" size="13"><br><br>
+					</div>
+					
+					<div id="mathFunctions">
+						<span>Perform Function</span><br>
+						<button id="btn-div" type="button">/</button>&nbsp;&nbsp;
+						<button id="btn-multi" type="button">x</button>&nbsp;&nbsp;
+						<button id="btn-sub" type="button">-</button>&nbsp;&nbsp;
+						<button id="btn-add" type="button">+</button><br><br>
+					</div>
+
+					<div id="inputs">
+						<span class="labels">Answer</span><br>
+						<input id="answer" type="text" size="13" value=""><br><br>						
+					</div>
+					
+				</fieldset>
+			</form>
+
+		</div>
+
+		<script type="text/javascript" src="calculator.js"></script>
+	</body>
+</html>
